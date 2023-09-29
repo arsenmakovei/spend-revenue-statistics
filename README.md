@@ -25,3 +25,4 @@ python manage.py runserver
 3. Also you can create admin user using `python manage.py createsuperuser` and visit admin panel `/admin/`
 4. You can load test data using `python manage.py loaddata spend_revenue_db_data.json`
 5. Visit `/api/spend/summary`, `/api/revenue/summary/` to see aggregated data by date and category for spend, revenue statistics
+6. Visit `api/doc/swagger/` to see and use Swagger documentation for all endpoints.
